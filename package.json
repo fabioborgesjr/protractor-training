@@ -1,0 +1,21 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "Pacotes para o desenvolvimento com protractor",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/jasminewd2": "^2.0.3",
+    "protractor": "5.3.1",
+    "typescript": "^2.8.1"
+  },
+  "scripts": {
+    "clean": "webdriver-manager clean",
+    "update": "webdriver-manager update && update",
+    "test": "protractor example/conf.js",
+    "pokedex": "protractor e2e/conf/protractor.conf.js"
+  },
+  "license": "ISC"
+}
