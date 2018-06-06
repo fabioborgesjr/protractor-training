@@ -1,0 +1,1 @@
+copy chromedriver_2.39.exe %cd%\node_modules\protractor\node_modules\webdriver-manager\selenium
