@@ -1,17 +1,17 @@
-# e2e-protractor-web
+# description
 
-Repositório do Coffee&Code sobre automação de testes E2E com o Protractor.
+Repository created to provide training on the Protractor framework at TOTVS S.A in Joinville, Santa Catarina.
 
-Abaixo alguns comandos que deveram ser executados pela linha de comando na pasta raíz do projeto e2e-protractor-web:
+# instructions
 
-Para realizar a instalação dos pacotes necessários para o desenvolvimento e execução dos testes basta executar o comando:
+Run the command below in the project root, where the package.json file is located. This command will install the project dependencies:
 
 npm install
 
-Para atualizar o servidor do Selenium e o driver do navegador utilizado para os testes, há um script no package.json que é possível utilizar pelo comando:
+then run this command to update the dependencies of Selenium and the webdriver-manager
 
 npm run update
 
-Feito isso, para executar os testes do Pokédex - configurados no arquivo e2e/conf/protractor-conf.js - pode ser executado o seguinte comando na raíz do projeto:
+and to run the tests
 
 npm run pokedex
